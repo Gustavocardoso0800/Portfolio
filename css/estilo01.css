@@ -20,10 +20,18 @@ h1 {
     margin: 4rem;
 }
 
+/*--------------------H2-----------------------*/
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin: 4rem; 
+}
+
 /*--------------------Container-----------------------*/
 #container {
     text-align: center;
-    margin: 10%;
+    margin: 5%;
 }
 
 /*--------------------Personimg-----------------------*/
@@ -40,16 +48,31 @@ p {
     font-size: 2rem;
 }
 
-/*--------------------Contacts-----------------------*/
-.contacts {
+/*--------------------Skills-----------------------*/
+#skills {
     margin: 7rem 0 7rem 0;
     text-align: center;
+    
+}
+
+
+/*--------------------Contacts-----------------------*/
+#contacts {
+    margin-top: 7rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    background-color:   #2b2635;;
+    
+}
+
+#contacts h2 {
+    padding-top: 1rem;
 }
 
 /*--------------------Footer-----------------------*/
 
 footer {
-    padding: 10px;
+    padding: 15px;
     background-color: #231046;
     position: fixed;
     bottom: 0;
