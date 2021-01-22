@@ -1,0 +1,63 @@
+/*--------------------Global-----------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*--------------------Body-----------------------*/
+body {
+    background-color: #030303;
+}
+
+/*--------------------H1-----------------------*/
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin: 4rem;
+}
+
+/*--------------------Container-----------------------*/
+#container {
+    text-align: center;
+    margin: 10%;
+}
+
+/*--------------------Personimg-----------------------*/
+#personimg {
+    padding: 50px;
+    background-color: #231046;
+    border-radius: 30px
+}
+
+/*--------------------P-----------------------*/
+p {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+/*--------------------Contacts-----------------------*/
+.contacts {
+    margin: 7rem 0 7rem 0;
+    text-align: center;
+}
+
+/*--------------------Footer-----------------------*/
+
+footer {
+    padding: 10px;
+    background-color: #231046;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
