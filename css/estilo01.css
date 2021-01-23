@@ -30,11 +30,16 @@ nav ul li a {
     padding: 10px 20px;
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 nav ul li a:hover {
     background-color: #3c1b79;
+    
+}
+
+nav ul li a:active {
+    background-color: #511781;
 }
 
 /*--------------------H1-----------------------*/
@@ -121,9 +126,7 @@ p {
 footer {
     padding: 15px;
     background-color: #231046;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+
     width: 100%;
 }
 
