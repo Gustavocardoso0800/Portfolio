@@ -7,12 +7,28 @@
     <title>Portólio Gustavo Cardoso</title>
     <link rel="stylesheet" href="css/estilo01.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <!-----------BODY---------------->
+
 <body>
     <!-----------HEADER---------------->
     <header>
+
+        <!-----------NAV---------------->
+        <nav>
+            <ul>
+                <li><a href="#">Ínicio</a></li>
+                <li><a href="#personimg">Sobre mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contato</a></li>
+
+            </ul>
+        </nav>
+
         <h1>PORTFÓLIO</h1>
     </header>
 
@@ -23,27 +39,31 @@
             <img id="personimg" src="images/person.png" alt="Ícone Pessoa" title="Ícone Pessoa">
         </div>
 
-        <p id="principal">Olá, Meu nome é GUSTAVO LIMA CARDOSO</p>
+
+        <h2>QUEM EU SOU?</h2>
+        <!-----------DIV CONTMAIN---------------->
+        <p id="contmain">Olá, tenho <strong>15 anos</strong> e me chamo <strong>GUSTAVO LIMA CARDOSO</strong>, ainda
+            estou no Ensino Médio, porém pretendo me formar na área de T.I futuramente, portanto, estou estudando desde já!</p>
 
         <!-----------DIV SKILLS---------------->
         <div id="skills">
-            <h2>Skills:</h2>
-            <img src="images/html5.icon.png" alt="ícone HTML5" title="ícone HTML5">
+            <h2>SKILLS:</h2>
+            <img class="skills_hoover" src="images/html5.icon.png" alt="ícone HTML5" title="HTML5">
 
-            <img src="images/css3-icon.png" alt="ícone Css3" title="ícone Css3">
+            <img class="skills_hoover" src="images/css3-icon.png" alt="ícone Css3" title="Css3">
 
-            <img src="images/js-icon.png" alt="ícone JavaScript" title="ícone JavaScript">
+            <img class="skills_hoover" src="images/js-icon.png" alt="ícone JavaScript" title="JavaScript">
         </div>
 
 
         <!-----------DIV CONTACTS---------------->
         <div id="contacts">
-            <h2>Contatos:</h2>
-            <a href="https://web.whatsapp.com/send?phone=559192457905" target="_blank"><img
-                    src="images/whatsapp-icon.png" alt="contato whatsapp" title="Contato WhatsApp"></a>
+            <h2>CONTATOS:</h2>
+            <a href="https://web.whatsapp.com/send?phone=559192457905" target="_blank"><img class="contact_hoover"
+                    src="images/whatsapp-icon2.png" alt="contato whatsapp" title="Contato WhatsApp"></a>
 
-            <a href="https://t.me/Gustavo_Cardos0" target="_blank"><img src="images/telegram-icon.png"
-                    alt="contato telegram" title="Contato Telegram"></a>
+            <a href="https://t.me/Gustavo_Cardos0" target="_blank"><img class="contact_hoover"
+                    src="images/telegram-icon.png" alt="contato telegram" title="Contato Telegram"></a>
         </div>
     </main>
 
@@ -51,6 +71,7 @@
     <footer>
         <p>&copy;Gustavo Cardoso</p>
     </footer>
+
 </body>
 
 </html>

@@ -3,13 +3,38 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inconsolata", monospace;
 }
 
 
 /*--------------------Body-----------------------*/
 body {
     background-color: #030303;
+}
+
+nav ul {
+    background-color: #6015e2;
+    list-style: none;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #3c1b79;
 }
 
 /*--------------------H1-----------------------*/
@@ -34,12 +59,18 @@ h2 {
     margin: 5%;
 }
 
-/*--------------------Personimg-----------------------*/
+/*--------------------PersonImg-----------------------*/
 #personimg {
     padding: 50px;
-    background-color: #231046;
+    background-image: linear-gradient(to bottom right, #6015e2, #050218);
     border-radius: 30px
 }
+/*--------------------ContainerMain-----------------------*/
+#contmain {
+    width: 500px;
+    margin: auto;
+}
+
 
 /*--------------------P-----------------------*/
 p {
@@ -53,6 +84,10 @@ p {
     margin: 7rem 0 7rem 0;
     text-align: center;
     
+}
+
+.skills_hoover:hover {
+    opacity: 85%;
 }
 
 
@@ -69,6 +104,18 @@ p {
     padding-top: 1rem;
 }
 
+
+.contact_hoover:hover {
+    opacity: 80%;
+}
+/*--------------------Media-----------------------*/
+
+@media only screen and (max-width: 500px) {
+    #contmain {
+        width: 400px;
+    }
+}
+
 /*--------------------Footer-----------------------*/
 
 footer {
@@ -82,5 +129,6 @@ footer {
 
 footer p {
     font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
