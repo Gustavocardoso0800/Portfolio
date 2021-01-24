@@ -27,7 +27,8 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 10px 15px;
+    padding: 20px 10px;
+    font-size: 20px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -47,7 +48,7 @@ h1 {
     font-size: 3rem;
     text-align: center;
     color: white;
-    margin: 4rem;
+    margin: 8rem;
 }
 
 /*--------------------H2-----------------------*/
@@ -119,13 +120,22 @@ p {
     #contmain {
         width: 300px;
     }
+
+    nav ul li a {
+        padding: 10px 5px;
+    }
+    
+    h1 {
+        margin: 4rem;
+    }
+    
 }
 
 /*--------------------Footer-----------------------*/
 
 footer {
     padding: 15px;
-    background-color: #231046;
+    background-color: #6015e2;
 
     width: 100%;
 }
