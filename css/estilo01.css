@@ -71,7 +71,7 @@ h2 {
     width: 250px;
     height: 250px;
     background-image: linear-gradient(to bottom right, #6015e2, #050218);
-    border-radius: 30px
+    border-radius: 50%;
 }
 /*--------------------ContainerMain-----------------------*/
 #contmain {
