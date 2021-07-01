@@ -6,6 +6,12 @@
     font-family: "Inconsolata", monospace;
 }
 
+:root {
+    --cor01: #6015e2;
+    --cor02: #3c1b79;
+    --cor03: #511781;
+    --cor04: #2b2635;
+}
 
 /*--------------------Body-----------------------*/
 body {
@@ -13,7 +19,7 @@ body {
 }
 
 nav ul {
-    background-color: #6015e2;
+    background-color: var(--cor01);
     list-style: none;
     text-align: center;
     position: fixed;
@@ -35,19 +41,19 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #3c1b79;
+    background-color: var(--cor02);
     
 }
 
 nav ul li a:active {
-    background-color: #511781;
+    background-color: var(--cor03);
 }
 
 /*--------------------H1-----------------------*/
 h1 {
     font-size: 3rem;
     text-align: center;
-    color: white;
+    color: #fff;
     margin-top: 8rem;
 }
 
@@ -55,7 +61,7 @@ h1 {
 h2 {
     font-size: 3rem;
     text-align: center;
-    color: white;
+    color: #fff;
     margin: 3rem; 
 }
 
@@ -70,7 +76,7 @@ h2 {
     padding: 5px;
     width: 250px;
     height: 250px;
-    background-image: linear-gradient(to bottom right, #6015e2, #050218);
+    background-image: linear-gradient(to bottom right, var(--cor02), #000);
     border-radius: 50%;
 }
 /*--------------------ContainerMain-----------------------*/
@@ -83,7 +89,7 @@ h2 {
 /*--------------------P-----------------------*/
 p {
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 2rem;
 }
 
@@ -92,19 +98,20 @@ p {
     margin: 7rem 0 7rem 0;
     text-align: center;
     
+    
 }
 
 .skills_hoover:hover {
     opacity: 85%;
+    
 }
-
 
 /*--------------------Contacts-----------------------*/
 #contacts {
     margin-top: 7rem;
     padding-bottom: 5rem;
     text-align: center;
-    background-color:   #2b2635;;
+    background-color: var(--cor04);
     
 }
 
@@ -124,8 +131,8 @@ p {
     }
 
     nav ul li a {
-        padding: 15px 1px;
-        font-size: 1.1em;
+        padding: 20px 2px;
+        font-size: 10pt;
 
     }
     
@@ -144,8 +151,7 @@ p {
 
 footer {
     padding: 15px;
-    background-color: #6015e2;
-
+    background-color: var(--cor01);
     width: 100%;
 }
 
@@ -153,4 +159,3 @@ footer p {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-
